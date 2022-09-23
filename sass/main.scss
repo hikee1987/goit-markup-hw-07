@@ -1,17 +1,11 @@
 // utils styles
-
 @import './utils/vars';
 @import './utils/visually-hidden';
 
-// base styles
-@import './base/base';
-@import './base/reset';
-@import './base/container';
-
 // components styles
-@import './components/header';
 @import './components/logo';
-@import './components/section';
+@import './components/header';
 @import './components/site-nav';
-@import './components/button';
-@import './components/footer';
+@import './components/section';
+@import "./components/footer";
+@import "./components/modal-window";
