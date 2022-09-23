@@ -1,6 +1,11 @@
+// utils styles
+
+@import './utils/vars';
+@import './utils/visually-hidden';
+
 // base styles
-@import './base/reset';
 @import './base/base';
+@import './base/reset';
 @import './base/container';
 
 // components styles
@@ -10,8 +15,3 @@
 @import './components/section';
 @import './components/site-nav';
 @import './components/button';
-
-// utils styles
-
-@import './utils/vars';
-@import './utils/visually-hidden';

@@ -1,25 +1,26 @@
-h1,
-h2,
-h3,
-ul,
-p {
-  margin: 0;
+:root {
+  --item-tx-color: #212121;
+  --item-bg-color: #ffffff;
+  --item-btn-color: #2196f3;
+  --item-prim-color: #757575;
+  --item-company-color: #afb1b8;
+  --overlay-color: rgba(33, 150, 243, 0.9);
+  --overlay-bg-color: rgba(47, 48, 58, 0.8);
+  --timing--function: 250ms cubic-bezier(04, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
   padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: currentColor;
-}
-
-ul {
-  list-style: none;
-}
-
-img {
-  display: block;
-  width: 100%;
-  height: auto;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1%;
 }
 
 body {
@@ -44,6 +45,30 @@ body {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -1190,29 +1215,4 @@ body {
 }
 .hero__button:focus, .hero__button:hover {
   background-color: #188ce8;
-}
-
-:root {
-  --item-tx-color: #212121;
-  --item-bg-color: #ffffff;
-  --item-btn-color: #2196f3;
-  --item-prim-color: #757575;
-  --item-company-color: #afb1b8;
-  --overlay-color: rgba(33, 150, 243, 0.9);
-  --overlay-bg-color: rgba(47, 48, 58, 0.8);
-  --timing--function: 250ms cubic-bezier(04, 0, 0.2, 1);
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
-  margin: -1%;
 }/*# sourceMappingURL=main.css.map */
