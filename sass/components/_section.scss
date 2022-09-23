@@ -4,6 +4,13 @@
   |============================
 */
 
+.button__sets-list {
+   display: flex;
+   gap: 8px;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+
 .card__sets-list {
    display: flex;
    flex-wrap: wrap;
@@ -302,12 +309,12 @@
    background-color: var(--item-bg-color);
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.team__socials-link:hover,
-.team__socials-link:focus {
-   color: var(--item-bg-color);
-   background-color: var(--item-btn-color);
+   &:hover,
+   &:focus {
+      color: var(--item-bg-color);
+      background-color: var(--item-btn-color);
+   }
 }
 
 .team__socials-icon {
@@ -539,32 +546,6 @@
 .register__form-checkbox {
    border-radius: 2px;
    background: var(--item-tx-color);
-}
-
-.register__form-btn {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 200px;
-   height: 50px;
-   font-weight: 700;
-   font-size: 16px;
-   line-height: 1.87;
-   letter-spacing: 0.06em;
-   color: var(--item-bg-color);
-   background: var(--item-btn-color);
-   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-   border-color: transparent;
-   border-radius: 4px;
-   cursor: pointer;
-   margin-left: auto;
-   margin-right: auto;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.register__form-btn:focus,
-.register__form-btn:hover {
-   background-color: #188ce8;
 }
 
 .register__form-desc {
