@@ -217,7 +217,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navi__item:hover .navi__link, .navi__item:focus .navi__link {
-  color: var(--item-btn-color);
+  color: var(--overlay-color);
 }
 
 .navi__link.current::after {
@@ -233,7 +233,7 @@ img {
   border: transparent;
 }
 
-.navi__list.current {
+.navi__list .current {
   color: var(--item-btn-color);
 }
 

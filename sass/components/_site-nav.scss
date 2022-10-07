@@ -32,7 +32,7 @@
 
    .navi__item:hover &,
    .navi__item:focus & {
-      color: var(--item-btn-color);
+      color: var(--overlay-color);
    }
 }
 
@@ -49,6 +49,6 @@
    border: transparent;
 }
 
-.navi__list.current {
+.navi__list .current {
    color: var(--item-btn-color);
 }
